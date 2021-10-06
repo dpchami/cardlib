@@ -1,3 +1,4 @@
 install: 
   - FILE="-Dfile=nidalib.aar" 
   - mvn install:install-file $FILE -DgroupId=com.kivo.nidalib -DartifactId=final -Dversion=1.5 -Dpackaging=aar -DpomFile=final-1.5.pom
+
